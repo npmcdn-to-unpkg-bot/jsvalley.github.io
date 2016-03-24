@@ -3,8 +3,11 @@
 
 ## Unit Test Examples
 
-  * http service unit test using mock backend:
-   * plunker: https://plnkr.co/edit/a71wxC?p=preview
+ * Angular2 http service unit test using mock backend:
+  * plunker: https://plnkr.co/edit/a71wxC?p=preview
 
-  * component unit test:
-   *  plunker: https://plnkr.co/edit/a71wxC?p=preview
+ * Angular2 component unit test:
+  *  plunker: https://plnkr.co/edit/a71wxC?p=preview
+
+ * Angular2 resolve before route using @CanActivate
+  * plunker: http://plnkr.co/edit/St5US5?p=preview
