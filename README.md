@@ -1,13 +1,13 @@
 # jsvalley.github.io
 
 
-## Unit Test Examples
+## Angular2 Unit Test Examples
 
- * Angular2 http service unit test using mock backend:
-  * plunker: https://plnkr.co/edit/a71wxC?p=preview
+ * [http service unit test using mock backend](https://plnkr.co/edit/a71wxC?p=preview)
+ * [component unit test](https://plnkr.co/edit/a71wxC?p=preview)
 
- * Angular2 component unit test:
-  *  plunker: https://plnkr.co/edit/a71wxC?p=preview
+## Angular2 Routing Examples
 
- * Angular2 resolve before route using @CanActivate
-  * plunker: http://plnkr.co/edit/St5US5?p=preview
+ * [resolve before route using @CanActivate](http://plnkr.co/edit/St5US5?p=preview)
+ * [Angular2 resolve before route using](http://plnkr.co/edit/St5US5?p=preview)
+ 
