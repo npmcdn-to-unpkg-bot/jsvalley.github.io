@@ -17,3 +17,5 @@
 ## Articles
   * [How to take screenshot from html](https://gist.github.com/allenhwkim/f1979ae601a955cbb406e35a61650beb)
   * [Custom console](https://gist.github.com/allenhwkim/ceebbfa66771be0b8aedadd73e715d7b)
+  * [Get real width and height using getComputedStyle](https://gist.github.com/allenhwkim/86f498bef85e65f36189e00c746d4167)
+  * [Show document.body into a small div by cloning it](http://plnkr.co/edit/k27ph6?p=preview)
