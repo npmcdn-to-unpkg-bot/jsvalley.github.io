@@ -24,4 +24,4 @@
   * [text to speech](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak)
 
 ## Material Icons
-  * [Input Field With Material Icons]()
+  * [Input Field With Material Icons](http://plnkr.co/edit/8WH6vS?p=preview)
