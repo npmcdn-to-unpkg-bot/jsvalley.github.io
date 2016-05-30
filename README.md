@@ -20,7 +20,7 @@
 ## Notes
   * [`note` How to take screenshot from html](https://gist.github.com/allenhwkim/f1979ae601a955cbb406e35a61650beb)
   * [`note` text to speech](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak)
-  * 
+  
 ## Code Examples
   * [`plunker`, Input Field With Material Icons](http://plnkr.co/edit/8WH6vS?p=preview)
   * [`gist` Custom console; konsole](https://gist.github.com/allenhwkim/ceebbfa66771be0b8aedadd73e715d7b)
