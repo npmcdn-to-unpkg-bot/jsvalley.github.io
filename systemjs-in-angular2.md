@@ -1,4 +1,4 @@
-# The Beginners' Introduction to SystemJS in Angular2
+# Beginners' Introduction to SystemJS in Angular2
 
 As you see a live example from [Angular2 Quick Start](https://angular.io/docs/ts/latest/quickstart.html), 
 You will find that the main page of Angular2, which is `index.html`, uses `SystemJS` to start Angular2 application.
