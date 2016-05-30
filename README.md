@@ -12,7 +12,6 @@
  * [parent-child routes](http://plnkr.co/edit/St5US5?p=preview)
  
 ## Angular2 Angular1.X Equivalents
-  * [ng-include equivalent (Dynamic Component)](http://plnkr.co/edit/L4lymg?p=preview)
   
 ## Articles
   * [Beginners' Introduction to SystemJS in Angular2](systemjs-in-angular2.md)
@@ -28,3 +27,5 @@
   * [`plunker` Show document.body into a small div by cloning it](http://plnkr.co/edit/k27ph6?p=preview)
   * [`code` Usage of .nvmrc](https://gist.github.com/allenhwkim/04f6285e9855b51572d863c698782f34)
   * [`plunker` Flex box examples](http://plnkr.co/edit/lxx7QCwZbeZyyUtwiCym?p=preview)
+  * [`plunker` ng-include equivalent (Dynamic Component)](http://plnkr.co/edit/L4lymg?p=preview)
+
