@@ -1,15 +1,6 @@
 # jsvalley.github.io
 
 
-## Angular2 Unit Test Examples
-
- * [http service unit test using mock backend](https://plnkr.co/edit/a71wxC?p=preview)
- * [component unit test](https://plnkr.co/edit/a71wxC?p=preview)
-
-## Angular2 Routing Examples
-
- * [resolve before route using @CanActivate](http://plnkr.co/edit/St5US5?p=preview)
- * [parent-child routes](http://plnkr.co/edit/St5US5?p=preview)
  
 ## Angular2 Angular1.X Equivalents
   
@@ -28,4 +19,13 @@
   * [`code` Usage of .nvmrc](https://gist.github.com/allenhwkim/04f6285e9855b51572d863c698782f34)
   * [`plunker` Flex box examples](http://plnkr.co/edit/lxx7QCwZbeZyyUtwiCym?p=preview)
   * [`plunker` ng-include equivalent (Dynamic Component)](http://plnkr.co/edit/L4lymg?p=preview)
+  * Angular2 Routing Examples
+    * [resolve before route using @CanActivate](http://plnkr.co/edit/St5US5?p=preview)
+    * [parent-child routes](http://plnkr.co/edit/St5US5?p=preview)
+     
+  * Angular2 Unit Test Examples
+    * [http service unit test using mock backend](https://plnkr.co/edit/a71wxC?p=preview)
+    * [component unit test](https://plnkr.co/edit/a71wxC?p=preview)
+
+
 
