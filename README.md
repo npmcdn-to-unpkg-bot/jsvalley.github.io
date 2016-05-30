@@ -25,7 +25,7 @@
      
   * Angular2 Unit Test Examples
     * [`plunker` http service unit test using mock backend](https://plnkr.co/edit/a71wxC?p=preview)
-    * [component unit test](https://plnkr.co/edit/a71wxC?p=preview)
+    * [`plunker` component unit test](https://plnkr.co/edit/a71wxC?p=preview)
 
 
 
