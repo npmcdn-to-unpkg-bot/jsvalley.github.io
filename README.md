@@ -3,6 +3,7 @@
 
 ## Articles
   * [Beginners' Introduction to SystemJS in Angular2](systemjs-in-angular2.md)
+  * [How To Publish Angular2 Module TypeScript-Ready](how-to-publish-ng2-module-with-typescript-ready.md)
 
 ## Notes
   * [`note` How to take screenshot from html](https://gist.github.com/allenhwkim/f1979ae601a955cbb406e35a61650beb)
