@@ -1,4 +1,4 @@
-# How To Publish Angular2 Module With TypeScript-Ready
+# How To Publish Angular2 TypeScript Module
 
 1. Code your classes in to `src` directory
 e.g., src/app/hello-world.ts
