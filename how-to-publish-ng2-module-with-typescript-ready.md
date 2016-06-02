@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # How To Publish Angular2 TypeScript Module
 
 1. Code your classes in to `src` directory

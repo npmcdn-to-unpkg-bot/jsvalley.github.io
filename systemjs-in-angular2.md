@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Introduction to SystemJS in Angular2 Beginners
 
 As you see a live example from [Angular2 Quick Start](https://angular.io/docs/ts/latest/quickstart.html), 

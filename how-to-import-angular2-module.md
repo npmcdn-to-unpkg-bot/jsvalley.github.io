@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## How To Import Angular2 Module
 
 1. Install npm module
