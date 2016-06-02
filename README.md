@@ -2,9 +2,12 @@
 
 
 ## Articles
-  * [Introduction to SystemJS for Angular2 Beginners](systemjs-in-angular2.md)<sub> May 31st 2016 By Allen Kim</sub>
-  * [How To Publish Angular2 Typescript Module](how-to-publish-ng2-module-with-typescript-ready.md) <sub>June 1st 2016 By Allen Kim
-  * [How To Import Angular2 Module](how-to-import-angular2-module.md) Jun 1, 2016 By Allen Kim
+  * [Introduction to SystemJS for Angular2 Beginners](systemjs-in-angular2.md)
+    <sub> May 31st 2016 By Allen Kim</sub>
+  * [How To Publish Angular2 Typescript Module](how-to-publish-ng2-module-with-typescript-ready.md) 
+    <sub>June 1st 2016 By Allen Kim</sub>
+  * [How To Import Angular2 Module](how-to-import-angular2-module.md) 
+    <sub>Jun 1, 2016 By Allen Kim</sub>
 
 ## Notes
   * [`note` How to take screenshot from html](https://gist.github.com/allenhwkim/f1979ae601a955cbb406e35a61650beb)
