@@ -7,11 +7,11 @@ title: JsValley, The Javascript Village
 
 
 ## Articles
-  * [Introduction to SystemJS for Angular2 Beginners](systemjs-in-angular2.md)
+  * [Introduction to SystemJS for Angular2 Beginners](systemjs-in-angular2)
     <sub> May 31st 2016 By Allen Kim</sub>
-  * [How To Publish Angular2 Typescript Module](how-to-publish-ng2-module-with-typescript-ready.md) 
+  * [How To Publish Angular2 Typescript Module](how-to-publish-ng2-module-with-typescript-ready) 
     <sub>June 1st 2016 By Allen Kim</sub>
-  * [How To Import Angular2 Module](how-to-import-angular2-module.md) 
+  * [How To Import Angular2 Module](how-to-import-angular2-module) 
     <sub>Jun 1, 2016 By Allen Kim</sub>
 
 ## Notes
