@@ -10,12 +10,12 @@ layout: default
 
 2. Set `tsconfig.json` moduleResolution to `node`
 
-       {
-         "compilerOptions": {
-           "moduleResolution" : "node",
-           ...
-         }
-       }
+        {
+          "compilerOptions": {
+            "moduleResolution" : "node",
+            ...
+          }
+        }
 
    This means that when you `import { A } from "moduleA"`, it looks for `moduleA` in special folders named `node_modules`. In this case, it looks for the `node_modules/moduleA` directory and trying to find `index.ts` or `index.d.ts` [as documented](https://www.typescriptlang.org/docs/handbook/module-resolution.html#node)
 
@@ -40,11 +40,11 @@ layout: default
   [Introduction to SystemJS for Angular Beginners](https://github.com/jsvalley/jsvalley.github.io/blob/master/systemjs-in-angular2.md)
 
 
-  config.map['my-module] = 'node_modules/my-module';
-  config.packages['my-module] = { main: 'dist/index.js', defaultExtention: 'js'}
+        config.map['my-module] = 'node_modules/my-module';
+        config.packages['my-module] = { main: 'dist/index.js', defaultExtention: 'js'}
 
-  `config.map` dictates where to find module when import.
-  `config.package` provides configuration that is specific to a common path.
-  `main` tells the main entry point of the package. From the above example,
-  `import 'my-module'` is equivalent to import 'my-module/dist/index.js'
+  * `config.map` dictates where to find module when import.
+  * `config.package` provides configuration that is specific to a common path.
+    * `main` tells the main entry point of the package. From the above example,
+    * `import 'my-module'` is equivalent to import 'my-module/dist/index.js'
 
