@@ -27,11 +27,12 @@ layout: default
    Module resolution is the process the compiler uses to figure out
    what an import refers to. To get into detail;
 
-   Now you are ready to use the module when you code in typescript.
+   Now you are ready to use the module when you code in typescript.  
    ![Imgur](http://i.imgur.com/SPOpWz4.png)
 
    If the module resolution is not done properly, you will see the error in your IDE.
-   For this example, we are seeing error in WebStorm.
+   For this example, we are seeing error in WebStorm.  
+   
    ![Imgur](http://i.imgur.com/5VfXSYr.png)
 
 3. You also need to setup run-time module resolution. This should be configured
