@@ -1,3 +1,9 @@
+---
+layout: page
+title: JsValley, The Javascript Village 
+tagline: Javascript Learning Starts Here
+---
+
 # jsvalley.github.io
 
 
