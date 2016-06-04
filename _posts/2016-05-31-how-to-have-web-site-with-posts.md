@@ -41,8 +41,12 @@ into your article.
 ### 3. Link your articles on your index page
 
 Now update your index.md to show all posts.
-
 ![Imgur](http://i.imgur.com/Ng3kF7s.png)
+
+## Summary
+The final result of your website will look like the following
+![Imgur](http://i.imgur.com/QebeldH.png)
+
 
 And you can take a look at the source code here,
 https://github.com/jsvalley/jsvalley.github.io/tree/0.2.0
