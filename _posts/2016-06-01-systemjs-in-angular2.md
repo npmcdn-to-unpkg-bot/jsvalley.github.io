@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+title: Introductoin to SystemJS in Angular2 Beginners
 ---
 
 # Introduction to SystemJS in Angular2 Beginners

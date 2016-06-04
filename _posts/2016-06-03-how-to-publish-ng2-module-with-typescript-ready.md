@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+title: How To Publish Angular2 Typescript Module
 ---
 
 # How To Publish Angular2 TypeScript Module

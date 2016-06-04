@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+title: How To Have A Web Site In 5 Minutes
 ---
 
 # How To Have a Website In 5 Minutes
