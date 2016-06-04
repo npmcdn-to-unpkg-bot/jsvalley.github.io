@@ -3,7 +3,7 @@ layout: post
 title: How To Import Angular 2 Module
 ---
 
-## How To Import Angular2 Module
+# How To Import Angular2 Module
 
 1. Install npm module
 
