@@ -1,14 +1,13 @@
 ---
 layout: post
 title: How To Have A Web Site With Multiple Posts
+image: images/nature1.jpg
 ---
-
-# How To Have A Web Site With Multiple Posts
 
 On the previous post, we learned how to have a website with very basic setup
 This time, we want you to have many posts without maintaining list of index table.
-
 These are the steps
+<!--more-->
 
 1. Create `_posts` directory
 2. Create your articles within `_posts` directory

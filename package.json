@@ -1,0 +1,27 @@
+{
+  "name": "jsvalley.github.io",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.md",
+  "dependencies": {
+    "material-design-icons": "^2.2.3",
+    "material-design-lite": "^1.1.3",
+    "roboto-fontface": "^0.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "rm -rf lib/* && cp node_modules/material-design-lite/dist/material.grey-pink.min.css lib && cp node_modules/material-design-lite/dist/material.js lib && cp -R node_modules/roboto-fontface lib && cp -R node_modules/material-design-icons/iconfont lib",
+    "start": "npm run build && bundle exec jekyll serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsvalley/jsvalley.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsvalley/jsvalley.github.io/issues"
+  },
+  "homepage": "https://github.com/jsvalley/jsvalley.github.io#readme"
+}

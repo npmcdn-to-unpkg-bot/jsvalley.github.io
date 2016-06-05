@@ -1,9 +1,13 @@
 ---
 layout: post
 title: How To Publish Angular2 Typescript Module
+image: images/nature3.jpg
 ---
 
-# How To Publish Angular2 TypeScript Module
+Now, publishing AngularJS module does not require gulp or grunt file.
+It only requires NodeJs, and it does not even required concatenation not minification.
+
+<!--more-->
 
 1. Code your classes in to `src` directory
 e.g., src/app/hello-world.ts
@@ -14,7 +18,6 @@ e.g., src/app/hello-world.ts
 2. Code `src/index.ts` to export your classes
 
      export {HelloWorld} from './app/hello-world';
-
 3. configure `tsconfig.json`
 
         {

@@ -1,16 +1,12 @@
 ---
 layout: post
 title: How To Have A Web Site In 5 Minutes
+image: images/nature0.jpg
 ---
-
-# How To Have a Website In 5 Minutes
-
-## A website up and running on github with Jekyll
-
 
 Do you have something to post on the internet, but not on Facebook or some company's but site, but on your own website.
 However, you don't want to go through all web hosting, programming, and all technical stuff?
-
+<!--more-->
 You can do this on github.
 
 These are the steps to do;

@@ -1,9 +1,12 @@
 ---
 layout: post
 title: How To Import Angular 2 Module
+image: images/nature4.jpg
 ---
 
-# How To Import Angular2 Module
+Bower is history. To run an Angular2 application, you don't have to download files nor modules from the Internet.
+All modules can be downloaded from `http://npmcdn.com` or can be installed as a node module into `node_modules` directory.
+<!--more-->
 
 1. Install npm module
 
@@ -17,7 +20,7 @@ title: How To Import Angular 2 Module
             ...
           }
         }
-
+        
    This means that when you `import { A } from "moduleA"`, it looks for `moduleA` in special folders named `node_modules`. In this case, it looks for the `node_modules/moduleA` directory and trying to find `index.ts` or `index.d.ts` [as documented](https://www.typescriptlang.org/docs/handbook/module-resolution.html#node)
 
       * node_modules/moduleA/index.ts

@@ -2,12 +2,21 @@
 layout: default
 ---
 
-# Hello World
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date:"%B %d, %Y" }} 
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+    <div class="mdl-card__media">
+      <img class="article-image" src="{{ post.image }}" border="0" alt="">
+    </div>
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">
+          {{ post.title }}
+      </h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+       {{ post.excerpt }} <sub>{{ post.date | date:"%B %d, %Y" }} </sub>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ post.url }}">Read more</a>
+    </div>
+  </div>
+{% endfor %}
