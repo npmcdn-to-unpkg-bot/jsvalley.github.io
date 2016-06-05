@@ -12,7 +12,7 @@ layout: default
           {{ post.title }}
       </h2>
     </div>
-    <div class="mdl-card__supporting-text">
+    <div class="mdl-card__supporting-text mdl-card--expand ">
        {{ post.excerpt }} <sub>{{ post.date | date:"%B %d, %Y" }} </sub>
     </div>
     <div class="mdl-card__actions mdl-card--border">

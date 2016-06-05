@@ -41,15 +41,28 @@
         </div>
         <div class="article-image-container mdl-card__media" style="background-image:url(/{{ page.image}})">
         </div>
-        <div class="mdl-card__supporting-text">
-          <strong>Includes</strong>
-          <span> {{ page.tags }}</span>
-        </div>
+        {% if page.tags %}
+          <div class="mdl-card__supporting-text">
+            <strong>Includes</strong>
+            <span> {{ page.tags }}</span>
+          </div>
+        {% endif %}
         <div class="mdl-grid portfolio-copy">
           {{ content }}
           {{ page.date | date:"%B %d, %Y" }}
         </div>
       </div>
+      <!-- facebook comment starts -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=254907754864724";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+      <div class="fb-comments" data-href="http://jsvalley.github.io" data-numposts="5"></div>
+      <!-- facebook comment ends -->
     </div>
     <footer class="mdl-mini-footer">
       <div class="mdl-mini-footer__left-section">
