@@ -15,7 +15,7 @@ pre {
 }
 
 .half-height {
-  height: 50%;
+  height: 33.333%;
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -46,8 +46,8 @@ pre {
 .portfolio-logo {
   background: url(images/logo.png) 50% no-repeat;
   background-size: cover;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   margin: auto auto 10px;
   border-radius: 50%;
 }
