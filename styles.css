@@ -188,6 +188,10 @@ img.article-image {
   margin: auto;
 }
 
+.social-buttons {
+  width: 100%;
+}
+
 footer {
   /*background-image: url(images/footer-background.png);*/
   background-size: cover;
