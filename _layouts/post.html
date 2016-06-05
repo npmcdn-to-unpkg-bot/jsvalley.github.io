@@ -54,15 +54,35 @@
           {{ page.date | date:"%B %d, %Y" }}
         </div>
       </div>
+
+      <!-- social media buttons starts -->
+
+      <!-- facebook -->
+      <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+      &nbsp;
+
+      <!-- twitter -->
+      <a href="https://twitter.com/share" class="twitter-share-button" data-size="medium">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      &nbsp;
+
+      <!-- linkedin -->
+      <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+      <script type="IN/Share" data-counter="right"></script>
+      &nbsp;
+
+      <!-- Google + -->
+      <!-- Place this tag in your head or just before your close body tag. -->
+      <script src="https://apis.google.com/js/platform.js" async defer></script>
+      &nbsp;
+      <!-- Place this tag where you want the +1 button to render. -->
+      <div class="g-plusone" data-size="medium"></div>
+      &nbsp;
+
+      <!-- social media buttons ends -->
+
       <!-- facebook comment starts -->
       <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=254907754864724";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
       <div class="fb-comments" data-href="http://jsvalley.github.io" data-numposts="5"></div>
       <!-- facebook comment ends -->
     </div>
@@ -79,6 +99,14 @@
     </footer>
   </main>
 </div>
+<!-- facebook sdk -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=254907754864724";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 
 </html>
