@@ -36,7 +36,6 @@ pre {
 }
 
 .portfolio-logo-row {
-  min-height: 200px;
 }
 
 .is-compact .portfolio-logo-row {
@@ -145,6 +144,10 @@ img.article-image {
   color: #555;
   overflow: auto;
   display: block;
+}
+
+.portfolio-copy  img {
+  max-width: 100%;
 }
 
 .no-padding {

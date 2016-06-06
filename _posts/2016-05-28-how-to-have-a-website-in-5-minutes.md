@@ -80,11 +80,10 @@ Let's get into the detail.
 
  Save all of this, then visit http://`<<your account>>`.github.io. Then you will see your website up and running
 
-Here is the result on the web site
+Here is the result on the web site  
 ![Imgur](http://i.imgur.com/KHpocwz.png)
 
-And you can take a look at the source code here,
-https://github.com/jsvalley/jsvalley.github.io/tree/0.1.0
+And you can take a look at the source code [here](https://github.com/jsvalley/jsvalley.github.io/tree/0.1.0).
 
 
  Of course, you want more than that. Next article will cover more about partials, layouts, posts, and indexes.
