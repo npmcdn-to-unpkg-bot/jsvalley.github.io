@@ -43,7 +43,7 @@ Let's get into the detail.
          . _config.yml          Necessary configuration file for your web site
          . index.md             Your first page goes here
 
-  * default.html
+  * **default.html**
 
         <!DOCTYPE html>
         <html>
@@ -55,15 +55,15 @@ Let's get into the detail.
           </body>
         </html>
 
-  * Gemfile
+  * **Gemfile**
 
          gem 'github-pages'
 
-   * __config.yml
+   * **__config.yml**
 
          markdown: kramdown
 
-   * index.md
+   * **index.md**
 
          ---
          layout: default
