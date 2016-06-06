@@ -43,7 +43,8 @@
         </div>
         <div class="article-image-container mdl-card__media" style="background-image:url(/{{ page.image}})">
         </div>
-        {% if page.tags %}
+        {{page.tags}}
+        {% if page.tags != empty %}
           <div class="mdl-card__supporting-text">
             <strong>Includes</strong>
             <span> {{ page.tags }}</span>
