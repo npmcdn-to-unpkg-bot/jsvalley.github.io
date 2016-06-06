@@ -1,0 +1,11 @@
+<ul>
+  {% for member in site.github.organization_members %}
+    <li>
+      <a href="{{ member.html_url }}">
+        <img srd="{{ member.avatar_url }}" />
+      </a>
+      {{ member.login }}
+      {{ member.site_admin ? 'Owner' : 'Member' }}
+    </li>
+  {% endfor %}
+</ul>

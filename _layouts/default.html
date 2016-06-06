@@ -30,13 +30,31 @@
     </header>
     <div class="mdl-layout__drawer mdl-layout--small-screen-only">
       <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-        <a class="mdl-navigation__link is-active" href="index.html">Something Here</a>
+        {% for repository in site.github.public_repositories %}
+          <a class="mdl-navigation__link is-active" href="{{repository.url}}">{{repository.name}}</a>
+        {% endfor %}
       </nav>
     </div>
     <main class="mdl-layout__content">
       <div class="mdl-grid portfolio-max-width">
         {{ content }}
       </div>
+
+      <div>
+        <h3>Repositories</h3>
+        {% include repositories.html %}
+      </div>
+
+      <div>
+        <h3>Members</h3>
+        {% include organization_memgers.html %}
+      </div>
+
+      <div>
+        <h3>Contributors</h3>
+        {% include contributors.html %}
+      </div>
+
       <footer class="mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
           <div class="mdl-logo">Something Here?</div>

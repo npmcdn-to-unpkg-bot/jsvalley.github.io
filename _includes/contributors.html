@@ -1,0 +1,11 @@
+<ul>
+    {% for contributor in site.github.contributors %}
+      <li>
+          <a href="{{ contributor.html_url }}">
+           <img srd="{{ contributor.avatar_url }}" />
+          </a>
+          {{ contributor.login }}
+          {{ contributor.contributons }}
+      </li>
+    {% endfor %}
+ </ul>
