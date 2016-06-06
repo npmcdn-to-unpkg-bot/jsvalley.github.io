@@ -4,10 +4,12 @@ title: How To Have A Web Site In 5 Minutes
 image: images/nature0.jpg
 ---
 
-Do you have something to post on the internet, but not on Facebook or some company's but site, but on your own website.
-However, you don't want to go through all web hosting, programming, and all technical stuff?
-<!--more-->
+Do you have something to post on the internet, but you do not want to be
+on Facebook or some company's site, but on your own website.
+However, you don't want to go through hassels of web hosting, programming, and all technical stuff?
+
 You can do this on github.
+<!--more-->
 
 These are the steps to do;
 
@@ -35,11 +37,11 @@ Let's get into the detail.
   * Create very basic files first. You will need the followings files minimum.
 
 
-      + __layouts            Directory include template of your web site
-        - default.html       Default template
-      . Gemfile              Necessary file to run your website with Jekyll
-      . _config.yml          Necessary configuration file for your web site
-      . index.md             Your first page goes here
+         + __layouts            Directory include template of your web site
+           . default.html       Default template
+         . Gemfile              Necessary file to run your website with Jekyll
+         . _config.yml          Necessary configuration file for your web site
+         . index.md             Your first page goes here
 
   * default.html
 
@@ -78,7 +80,7 @@ Let's get into the detail.
          ---
 
 
- Save all of this, then visit http://`<<your account>>`.github.io. Then you will see your website up and running
+Save all of this, then visit http://`<<your account>>`.github.io. Then you will see your website up and running
 
 Here is the result on the web site  
 ![Imgur](http://i.imgur.com/KHpocwz.png)
@@ -86,7 +88,7 @@ Here is the result on the web site
 And you can take a look at the source code [here](https://github.com/jsvalley/jsvalley.github.io/tree/0.1.0).
 
 
- Of course, you want more than that. Next article will cover more about partials, layouts, posts, and indexes.
+Of course, you want more than that. Next article will cover more about partials, layouts, posts, and indexes.
 
 
 
