@@ -71,16 +71,18 @@ Let's get into the detail.
 
          # Hello World
 
-    You must have [front matter](https://jekyllrb.com/docs/frontmatter/) in index.md.
+
+    One thing you need to remember is that you must have [front matter](https://jekyllrb.com/docs/frontmatter/) in index.md.
     For this `index.md` the following is the front matter, which tells you that `_layouts/default.html`
     will be used to render this page.
+    
 
          ---
          layout: default
          ---
 
 
-Save all of this, then visit http://`<<your account>>`.github.io. Then you will see your website up and running
+Save all of files that you have, then visit http://`<<your account>>`.github.io. Then you will see your website up and running.
 
 Here is the result on the web site  
 ![Imgur](http://i.imgur.com/KHpocwz.png)
