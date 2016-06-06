@@ -2,10 +2,10 @@
     {% for contributor in site.github.contributors %}
       <li>
           <a href="{{ contributor.html_url }}">
-           <img srd="{{ contributor.avatar_url }}" />
+           <img src="{{ contributor.avatar_url }}" />
           </a>
           {{ contributor.login }}
-          {{ contributor.contributons }}
+          {{ contributor.contributions }}
       </li>
     {% endfor %}
  </ul>
