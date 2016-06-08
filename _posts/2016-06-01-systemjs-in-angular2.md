@@ -64,15 +64,15 @@ So, we see two things, one is config, and the other is `System.import('app')`
 
 So many questions arise from here. 
 
-  **Q: where is app and how do we fine it?**
-  **A: It's defined in system.config.js using `map` and `packages`**
+  **Q: where is app and how do we fine it?**  
+  **A: It's defined in system.config.js using `map` and `packages`**  
 
     	  config.map['app'] = 'app'; // tells you where you find app package,
           config.packages['app'] = { main: 'main.ts',  defaultExtension: 'ts' }; // tells you what file to execute
           
 
-  **Q. Where is `main.ts` and what does it do?**
-  **A. It's located at 'app/main.ts' because `config.map['app']` told it to find `app` packages in `app` directory.** 
+  **Q. Where is `main.ts` and what does it do?**  
+  **A. It's located at 'app/main.ts' because `config.map['app']` told it to find `app` packages in `app` directory.**   
      `main.ts` bootstraps angular application, which is your app.   
      bootstrap reads `AppComponent` and find `my-app` html tag in document
      then renders your applications between those two tags; `<my-app>` and `</my-app>`
