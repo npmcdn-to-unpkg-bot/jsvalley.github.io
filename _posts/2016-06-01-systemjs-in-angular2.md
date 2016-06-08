@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introductoin to SystemJS in Angular2 Beginners
+title: Introduction to SystemJS For Angular2 Beginners
 image: images/nature2.jpg
 ---
 
