@@ -22,39 +22,14 @@
           <span class="mdl-layout__title"> Learning It, Loving It, Living With Javascript </span>
         </span>
       </div>
-      <!--<div class="mdl-layout__header-row portfolio-navigation-row mdl-layout&#45;&#45;large-screen-only">-->
-        <!--<nav class="mdl-navigation mdl-typography&#45;&#45;body-1-force-preferred-font">-->
-          <!--<a class="mdl-navigation__link is-active" href="index.html">Home</a>-->
-        <!--</nav>-->
-      <!--</div>-->
     </header>
     <div class="mdl-layout__drawer mdl-layout--small-screen-only">
       <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-        {% for repository in site.github.public_repositories %}
-          <a class="mdl-navigation__link is-active" href="{{repository.url}}">{{repository.name}}</a>
-        {% endfor %}
+        TODO
       </nav>
     </div>
     <main class="mdl-layout__content">
-      <div class="mdl-grid portfolio-max-width">
-        {{ content }}
-      </div>
-
-      <div class="portfolio-max-width">
-        <h3>Repositories</h3>
-        {% include repositories.html %}
-      </div>
-
-      <div class="portfolio-max-width">
-        <h3>Members</h3>
-        {% include organization_members.html %}
-      </div>
-
-      <div class="portfolio-max-width">
-        <h3>Contributors</h3>
-        {% include contributors.html %}
-      </div>
-
+      {{ content }}
       <footer class="mdl-mini-footer">
         <div class="mdl-mini-footer__left-section">
           <div class="mdl-logo">Something Here?</div>
@@ -69,6 +44,10 @@
     </main>
   </div>
 </body>
+
+
+
+
 
 </html>
 

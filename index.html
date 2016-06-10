@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<div class="mdl-grid portfolio-max-width">
+
+  {% for post in site.posts %}
+    <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+      <div class="mdl-card__media">
+        <img class="article-image" src="{{ post.image }}" border="0" alt="">
+      </div>
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">
+            {{ post.title }}
+        </h2>
+      </div>
+      <div class="mdl-card__supporting-text mdl-card--expand ">
+         {{ post.excerpt }} <sub>{{ post.date | date:"%B %d, %Y" }} </sub>
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ post.url }}">Read more</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="mdl-grid portfolio-max-width">
+  <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+    <div class="mdl-card__title"> <h2 class="mdl-card__title-text"> Repositories </h2> </div>
+    {% include repositories.html %}
+  </div>
+
+  <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+    <div class="mdl-card__title"> <h2 class="mdl-card__title-text"> Members </h2> </div>
+    {% include organization_members.html %}
+  </div>
+
+  <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+    <div class="mdl-card__title"> <h2 class="mdl-card__title-text"> Contributors </h2> </div>
+    {% include contributors.html %}
+  </div>
+</div>
+
+<div class="portfolio-max-width">
+  <h2 class="mdl-card__title-text">Useful Example Codes</h2>
+  <ul>
+    <li><a href="http://plnkr.co/edit/8WH6vS?p=preview">Input Field With Material Icons</a><sub>plunker</sub>
+    <li><a href="https://gist.github.com/allenhwkim/ceebbfa66771be0b8aedadd73e715d7b">Custom
+      console; konsole</a><sub>gist</sub>
+    <li><a href="https://gist.github.com/allenhwkim/86f498bef85e65f36189e00c746d4167">Get real
+      width and height using getComputedStyle</a><sub>gist</sub>
+    <li><a href="http://plnkr.co/edit/k27ph6?p=preview">Show document.body into a small div by
+      cloning it</a><sub>plunker</sub>
+    <li><a href="https://gist.github.com/allenhwkim/04f6285e9855b51572d863c698782f34">Usage of
+      .nvmrc</a><sub>sub</sub>
+    <li><a href="http://plnkr.co/edit/lxx7QCwZbeZyyUtwiCym?p=preview">Flex box examples</a><sub>plunker</sub>
+    <li>Angular 1.x Equivalents
+      <ul>
+        <li><a href="http://plnkr.co/edit/L4lymg?p=preview">ng-include equivalent (Dynamic
+          Component)</a><sub>plunker</sub> </li>
+      </ul>
+    <li>Angular 2 Routing Examples
+      <ul>
+        <li><a href="http://plnkr.co/edit/St5US5?p=preview">resolve before route using @CanActivate</a><sub>plnuker</sub>
+        <li><a href="http://plnkr.co/edit/St5US5?p=preview">parent-child routes</a><sub>plunker</sub>
+      </ul>
+    </li>
+    <li>
+      Angular 2 Unit Test Examples
+      <ul>
+        <li><a href="https://plnkr.co/edit/a71wxC?p=preview">http service unit test using mock
+          backend</a><sub>plunker</sub> </li>
+        <li><a href="https://plnkr.co/edit/a71wxC?p=preview"> component unit test</a><sub>plunker</sub></li>
+      </ul>
+    </li>
+  </ul>
+</div>
