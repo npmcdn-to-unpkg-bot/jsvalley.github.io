@@ -16,3 +16,27 @@
     * [component unit test](https://plnkr.co/edit/a71wxC?p=preview)<sup>`plunker`</sup>
 
 * [Remote Component Loading](http://plnkr.co/edit/DuLPXo?p=preview&open=app%2Fapp.component.ts)<sup>`plunker`</sup>
+
+
+## Idea:
+
+Idea for overlaying elements(tooltip, popup(modal), etc)
+
+* Overlay (Absolute positioned HTML Element)
+  * properties:
+    - relativeTo: viewport, or element
+    - containerEl(relatively positioned element) - readonly, must be no positioned or relative positioned
+    - el(element to show)
+    - position: top-left, top-center, top-right, center-left, center-center, center-right, bottom-left, bottom-center, bottom-right
+  * methods
+    - moveTo(x, y): move to a certain position x,y: pixel or percentage
+    
+* OverlayManager
+  * properties: 
+    - overlays: The array of Overlays that are currently registered
+    - activeOverlay: Currently focused(active) overlay
+  * methods
+    - add(overlay: Overlay) : register an overlay
+    - remove(overlay: Overlay): remove the overlay
+    - show(id): show an overlay
+    - hide(id): hide an overlay
