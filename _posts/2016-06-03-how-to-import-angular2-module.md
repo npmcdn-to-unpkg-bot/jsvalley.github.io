@@ -5,7 +5,7 @@ image: images/nature4.jpg
 ---
 
 Bower is history. To run an Angular2 application, you don't have to download files nor modules from the Internet.
-All modules can be downloaded from `http://npmcdn.com` or can be installed as a node module into `node_modules` directory.
+All modules can be downloaded from `http://unpkg.com` or can be installed as a node module into `node_modules` directory.
 <!--more-->
 
 1. Install npm module
